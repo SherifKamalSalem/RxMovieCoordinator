@@ -17,6 +17,13 @@
 		42DF063D23CD879800EED6E2 /* RxMovieCoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF063C23CD879800EED6E2 /* RxMovieCoordinatorUITests.swift */; };
 		42DF064C23CD897F00EED6E2 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF064B23CD897F00EED6E2 /* AppFlow.swift */; };
 		42DF064E23CD8A0300EED6E2 /* MainStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF064D23CD8A0300EED6E2 /* MainStep.swift */; };
+		42DF065623CD8B2100EED6E2 /* MoviesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF065023CD8B2100EED6E2 /* MoviesHelper.swift */; };
+		42DF065723CD8B2100EED6E2 /* MoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF065123CD8B2100EED6E2 /* MoviesRepository.swift */; };
+		42DF065823CD8B2100EED6E2 /* CastsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF065223CD8B2100EED6E2 /* CastsHelper.swift */; };
+		42DF065923CD8B2100EED6E2 /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF065323CD8B2100EED6E2 /* MoviesService.swift */; };
+		42DF065A23CD8B2100EED6E2 /* CastsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF065423CD8B2100EED6E2 /* CastsRepository.swift */; };
+		42DF065B23CD8B2100EED6E2 /* PreferencesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF065523CD8B2100EED6E2 /* PreferencesService.swift */; };
+		42DF065D23CD8B5300EED6E2 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF065C23CD8B5300EED6E2 /* AppServices.swift */; };
 		6FDD5AEC6886BE2F07E3D609 /* Pods_RxMovieCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6238C97832D09F7B7F677C48 /* Pods_RxMovieCoordinator.framework */; };
 		780C9AAA5CE7C285521C42B0 /* Pods_RxMovieCoordinatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF10BEEF9C1B69F53B65C9ED /* Pods_RxMovieCoordinatorUITests.framework */; };
 		909B645799615A8E84886D47 /* Pods_RxMovieCoordinatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E56A13E3AE0DAE801FCFA6 /* Pods_RxMovieCoordinatorTests.framework */; };
@@ -56,6 +63,13 @@
 		42DF063E23CD879800EED6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42DF064B23CD897F00EED6E2 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
 		42DF064D23CD8A0300EED6E2 /* MainStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStep.swift; sourceTree = "<group>"; };
+		42DF065023CD8B2100EED6E2 /* MoviesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesHelper.swift; sourceTree = "<group>"; };
+		42DF065123CD8B2100EED6E2 /* MoviesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesRepository.swift; sourceTree = "<group>"; };
+		42DF065223CD8B2100EED6E2 /* CastsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastsHelper.swift; sourceTree = "<group>"; };
+		42DF065323CD8B2100EED6E2 /* MoviesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
+		42DF065423CD8B2100EED6E2 /* CastsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastsRepository.swift; sourceTree = "<group>"; };
+		42DF065523CD8B2100EED6E2 /* PreferencesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesService.swift; sourceTree = "<group>"; };
+		42DF065C23CD8B5300EED6E2 /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
 		513D0FF4A3D5E4544F1C0D2C /* Pods-RxMovieCoordinatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMovieCoordinatorTests.debug.xcconfig"; path = "Target Support Files/Pods-RxMovieCoordinatorTests/Pods-RxMovieCoordinatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		59EDFCE366D2BE60C4168F72 /* Pods-RxMovieCoordinatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMovieCoordinatorTests.release.xcconfig"; path = "Target Support Files/Pods-RxMovieCoordinatorTests/Pods-RxMovieCoordinatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		61E56A13E3AE0DAE801FCFA6 /* Pods_RxMovieCoordinatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMovieCoordinatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +134,7 @@
 		42DF061923CD879700EED6E2 /* RxMovieCoordinator */ = {
 			isa = PBXGroup;
 			children = (
+				42DF064F23CD8B2100EED6E2 /* Services */,
 				42DF064A23CD897300EED6E2 /* Flow */,
 				42DF061A23CD879700EED6E2 /* AppDelegate.swift */,
 				42DF061C23CD879700EED6E2 /* SceneDelegate.swift */,
@@ -157,6 +172,20 @@
 				42DF064D23CD8A0300EED6E2 /* MainStep.swift */,
 			);
 			path = Flow;
+			sourceTree = "<group>";
+		};
+		42DF064F23CD8B2100EED6E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				42DF065023CD8B2100EED6E2 /* MoviesHelper.swift */,
+				42DF065123CD8B2100EED6E2 /* MoviesRepository.swift */,
+				42DF065223CD8B2100EED6E2 /* CastsHelper.swift */,
+				42DF065323CD8B2100EED6E2 /* MoviesService.swift */,
+				42DF065423CD8B2100EED6E2 /* CastsRepository.swift */,
+				42DF065523CD8B2100EED6E2 /* PreferencesService.swift */,
+				42DF065C23CD8B5300EED6E2 /* AppServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		A1655F4CC47733CFC50A4829 /* Frameworks */ = {
@@ -403,9 +432,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DF065A23CD8B2100EED6E2 /* CastsRepository.swift in Sources */,
+				42DF065623CD8B2100EED6E2 /* MoviesHelper.swift in Sources */,
+				42DF065723CD8B2100EED6E2 /* MoviesRepository.swift in Sources */,
+				42DF065823CD8B2100EED6E2 /* CastsHelper.swift in Sources */,
 				42DF061F23CD879700EED6E2 /* ViewController.swift in Sources */,
 				42DF064C23CD897F00EED6E2 /* AppFlow.swift in Sources */,
+				42DF065923CD8B2100EED6E2 /* MoviesService.swift in Sources */,
 				42DF061B23CD879700EED6E2 /* AppDelegate.swift in Sources */,
+				42DF065B23CD8B2100EED6E2 /* PreferencesService.swift in Sources */,
+				42DF065D23CD8B5300EED6E2 /* AppServices.swift in Sources */,
 				42DF061D23CD879700EED6E2 /* SceneDelegate.swift in Sources */,
 				42DF064E23CD8A0300EED6E2 /* MainStep.swift in Sources */,
 			);
