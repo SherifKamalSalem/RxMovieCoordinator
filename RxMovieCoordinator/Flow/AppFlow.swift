@@ -26,5 +26,19 @@ class AppFlow: Flow {
     init(services: AppServices) {
         self.services = services
     }
+    
+    func navigate(to step: Step) -> FlowContributors {
+        guard let step = step as? MainStep else { return .none }
+        switch step {
+        case .dashboardIsRequired:
+            return
+        default:
+            <#code#>
+        }
+    }
+    
+    private func navigationToDashboardScreen() -> FlowContributors {
+        let dashboardFlow = 
+    }
 }
 
