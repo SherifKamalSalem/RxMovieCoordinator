@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		424DD33B23CE35EB00351A8F /* DashboardFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424DD33A23CE35EB00351A8F /* DashboardFlow.swift */; };
+		425E7DF723CED30B00D58B56 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7DF523CED30B00D58B56 /* Movie.swift */; };
+		425E7DF823CED30B00D58B56 /* Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7DF623CED30B00D58B56 /* Cast.swift */; };
+		425E7DFA23CED4E400D58B56 /* WatchedFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7DF923CED4E400D58B56 /* WatchedFlow.swift */; };
+		425E7DFC23CEE9E900D58B56 /* SettingsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7DFB23CEE9E900D58B56 /* SettingsFlow.swift */; };
+		425E7E0723CEF27600D58B56 /* SettingsApiKeyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7DFE23CEF27600D58B56 /* SettingsApiKeyViewModel.swift */; };
+		425E7E0823CEF27600D58B56 /* SettingsListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425E7DFF23CEF27600D58B56 /* SettingsListViewController.storyboard */; };
+		425E7E0923CEF27600D58B56 /* SettingsLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7E0023CEF27600D58B56 /* SettingsLoginViewController.swift */; };
+		425E7E0A23CEF27600D58B56 /* SettingsAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7E0123CEF27600D58B56 /* SettingsAboutViewController.swift */; };
+		425E7E0B23CEF27600D58B56 /* SettingsAboutViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425E7E0223CEF27600D58B56 /* SettingsAboutViewController.storyboard */; };
+		425E7E0C23CEF27600D58B56 /* SettingsLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425E7E0323CEF27600D58B56 /* SettingsLoginViewController.storyboard */; };
+		425E7E0D23CEF27600D58B56 /* SettingsApiKeyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425E7E0423CEF27600D58B56 /* SettingsApiKeyViewController.storyboard */; };
+		425E7E0E23CEF27600D58B56 /* SettingsApiKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7E0523CEF27600D58B56 /* SettingsApiKeyViewController.swift */; };
+		425E7E0F23CEF27600D58B56 /* SettingsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E7E0623CEF27600D58B56 /* SettingsListViewController.swift */; };
 		42DF061B23CD879700EED6E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF061A23CD879700EED6E2 /* AppDelegate.swift */; };
 		42DF061D23CD879700EED6E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF061C23CD879700EED6E2 /* SceneDelegate.swift */; };
 		42DF061F23CD879700EED6E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF061E23CD879700EED6E2 /* ViewController.swift */; };
@@ -67,6 +80,19 @@
 
 /* Begin PBXFileReference section */
 		424DD33A23CE35EB00351A8F /* DashboardFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardFlow.swift; sourceTree = "<group>"; };
+		425E7DF523CED30B00D58B56 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		425E7DF623CED30B00D58B56 /* Cast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cast.swift; sourceTree = "<group>"; };
+		425E7DF923CED4E400D58B56 /* WatchedFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedFlow.swift; sourceTree = "<group>"; };
+		425E7DFB23CEE9E900D58B56 /* SettingsFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFlow.swift; sourceTree = "<group>"; };
+		425E7DFE23CEF27600D58B56 /* SettingsApiKeyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsApiKeyViewModel.swift; sourceTree = "<group>"; };
+		425E7DFF23CEF27600D58B56 /* SettingsListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsListViewController.storyboard; sourceTree = "<group>"; };
+		425E7E0023CEF27600D58B56 /* SettingsLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLoginViewController.swift; sourceTree = "<group>"; };
+		425E7E0123CEF27600D58B56 /* SettingsAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsAboutViewController.swift; sourceTree = "<group>"; };
+		425E7E0223CEF27600D58B56 /* SettingsAboutViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsAboutViewController.storyboard; sourceTree = "<group>"; };
+		425E7E0323CEF27600D58B56 /* SettingsLoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsLoginViewController.storyboard; sourceTree = "<group>"; };
+		425E7E0423CEF27600D58B56 /* SettingsApiKeyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsApiKeyViewController.storyboard; sourceTree = "<group>"; };
+		425E7E0523CEF27600D58B56 /* SettingsApiKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsApiKeyViewController.swift; sourceTree = "<group>"; };
+		425E7E0623CEF27600D58B56 /* SettingsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsListViewController.swift; sourceTree = "<group>"; };
 		42DF061723CD879700EED6E2 /* RxMovieCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMovieCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DF061A23CD879700EED6E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42DF061C23CD879700EED6E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +173,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		425E7DF423CED30B00D58B56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				425E7DF523CED30B00D58B56 /* Movie.swift */,
+				425E7DF623CED30B00D58B56 /* Cast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		425E7DFD23CEF27600D58B56 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				425E7DFE23CEF27600D58B56 /* SettingsApiKeyViewModel.swift */,
+				425E7DFF23CEF27600D58B56 /* SettingsListViewController.storyboard */,
+				425E7E0023CEF27600D58B56 /* SettingsLoginViewController.swift */,
+				425E7E0123CEF27600D58B56 /* SettingsAboutViewController.swift */,
+				425E7E0223CEF27600D58B56 /* SettingsAboutViewController.storyboard */,
+				425E7E0323CEF27600D58B56 /* SettingsLoginViewController.storyboard */,
+				425E7E0423CEF27600D58B56 /* SettingsApiKeyViewController.storyboard */,
+				425E7E0523CEF27600D58B56 /* SettingsApiKeyViewController.swift */,
+				425E7E0623CEF27600D58B56 /* SettingsListViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		42DF060E23CD879600EED6E2 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +225,8 @@
 			children = (
 				42F147F923CE399100128363 /* Protocols */,
 				42F147D423CE396800128363 /* Dashboard */,
+				425E7DFD23CEF27600D58B56 /* Settings */,
+				425E7DF423CED30B00D58B56 /* Models */,
 				42DF064F23CD8B2100EED6E2 /* Services */,
 				42DF064A23CD897300EED6E2 /* Flow */,
 				42DF061A23CD879700EED6E2 /* AppDelegate.swift */,
@@ -212,6 +265,8 @@
 				42DF064D23CD8A0300EED6E2 /* MainStep.swift */,
 				424DD33A23CE35EB00351A8F /* DashboardFlow.swift */,
 				42F147FC23CE4C2000128363 /* WishlistFlow.swift */,
+				425E7DF923CED4E400D58B56 /* WatchedFlow.swift */,
+				425E7DFB23CEE9E900D58B56 /* SettingsFlow.swift */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -424,12 +479,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425E7E0823CEF27600D58B56 /* SettingsListViewController.storyboard in Resources */,
+				425E7E0B23CEF27600D58B56 /* SettingsAboutViewController.storyboard in Resources */,
 				42F147EA23CE396800128363 /* WatchedViewController.storyboard in Resources */,
 				42F147F323CE396800128363 /* WishlistViewController.storyboard in Resources */,
 				42DF062723CD879800EED6E2 /* LaunchScreen.storyboard in Resources */,
 				42DF062423CD879800EED6E2 /* Assets.xcassets in Resources */,
+				425E7E0D23CEF27600D58B56 /* SettingsApiKeyViewController.storyboard in Resources */,
 				42DF062223CD879700EED6E2 /* Main.storyboard in Resources */,
 				42F147EE23CE396800128363 /* MovieDetailViewController.storyboard in Resources */,
+				425E7E0C23CEF27600D58B56 /* SettingsLoginViewController.storyboard in Resources */,
 				42F147F223CE396800128363 /* CastDetailViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,30 +603,39 @@
 				42F147FB23CE39AE00128363 /* ViewModelBased.swift in Sources */,
 				42DF065A23CD8B2100EED6E2 /* CastsRepository.swift in Sources */,
 				42F147F123CE396800128363 /* WishlistViewModel.swift in Sources */,
+				425E7DFC23CEE9E900D58B56 /* SettingsFlow.swift in Sources */,
 				42F147FD23CE4C2000128363 /* WishlistFlow.swift in Sources */,
 				42F147F023CE396800128363 /* MovieDetailViewModel.swift in Sources */,
 				42DF065623CD8B2100EED6E2 /* MoviesHelper.swift in Sources */,
 				42F147F623CE396800128363 /* MovieDetailViewController.swift in Sources */,
+				425E7E0E23CEF27600D58B56 /* SettingsApiKeyViewController.swift in Sources */,
 				42DF065723CD8B2100EED6E2 /* MoviesRepository.swift in Sources */,
 				42DF065823CD8B2100EED6E2 /* CastsHelper.swift in Sources */,
 				42F147F823CE396800128363 /* CastViewModel.swift in Sources */,
+				425E7E0A23CEF27600D58B56 /* SettingsAboutViewController.swift in Sources */,
 				42DF061F23CD879700EED6E2 /* ViewController.swift in Sources */,
 				42F147F423CE396800128363 /* CastDetailViewController.swift in Sources */,
 				42F147EC23CE396800128363 /* WatchedViewController.swift in Sources */,
+				425E7DF823CED30B00D58B56 /* Cast.swift in Sources */,
 				42DF064C23CD897F00EED6E2 /* AppFlow.swift in Sources */,
+				425E7DF723CED30B00D58B56 /* Movie.swift in Sources */,
 				42DF065923CD8B2100EED6E2 /* MoviesService.swift in Sources */,
 				42DF061B23CD879700EED6E2 /* AppDelegate.swift in Sources */,
 				42DF065B23CD8B2100EED6E2 /* PreferencesService.swift in Sources */,
+				425E7E0F23CEF27600D58B56 /* SettingsListViewController.swift in Sources */,
 				42F147F723CE396800128363 /* CastDetailViewModel.swift in Sources */,
 				42F147ED23CE396800128363 /* MovieViewCell.swift in Sources */,
 				42DF065D23CD8B5300EED6E2 /* AppServices.swift in Sources */,
 				42DF061D23CD879700EED6E2 /* SceneDelegate.swift in Sources */,
+				425E7E0723CEF27600D58B56 /* SettingsApiKeyViewModel.swift in Sources */,
 				42F147EF23CE396800128363 /* WishlistViewController.swift in Sources */,
+				425E7DFA23CED4E400D58B56 /* WatchedFlow.swift in Sources */,
 				42F147E923CE396800128363 /* MovieCollectionViewCell.swift in Sources */,
 				42F147EB23CE396800128363 /* WatchedViewModel.swift in Sources */,
 				42F147F523CE396800128363 /* MovieViewModel.swift in Sources */,
 				424DD33B23CE35EB00351A8F /* DashboardFlow.swift in Sources */,
 				42DF064E23CD8A0300EED6E2 /* MainStep.swift in Sources */,
+				425E7E0923CEF27600D58B56 /* SettingsLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

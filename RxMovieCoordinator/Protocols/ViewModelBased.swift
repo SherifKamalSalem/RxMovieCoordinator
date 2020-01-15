@@ -13,7 +13,7 @@ protocol ViewModel {
     
 }
 
-protocol ServiceViewModel: ViewModel {
+protocol ServicesViewModel: ViewModel {
     associatedtype ServiceType
     var services: ServiceType! { get set }
 }
@@ -31,7 +31,7 @@ extension ViewModelBased where Self: StoryboardBased & UIViewController {
     }
 }
 
-extension ViewModelBased where Self: StoryboardBased & UIViewController, ViewModelType: ServiceViewModel {
+extension ViewModelBased where Self: StoryboardBased & UIViewController, ViewModelType: ServicesViewModel {
     static func instantiate<ViewModelType, ServicesType>(withViewModel viewModel: ViewModelType, andServices services: ServicesType) -> Self where ViewModelType == Self.ViewModelType, ServicesType == Self.ViewModelType.ServiceType {
         let viewController = self.instantiate()
         viewController.viewModel = viewModel

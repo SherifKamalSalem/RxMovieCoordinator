@@ -13,7 +13,7 @@ import RxSwift
 
 
 class DashboardFlow: Flow {
-    var root: UIViewController {
+    var root: Presentable {
         return rootViewController
     }
     
@@ -22,7 +22,6 @@ class DashboardFlow: Flow {
     
     init(services: AppServices) {
         self.services = services
-        self.wishlistStepper = wishlistStepper
     }
     
     func navigate(to step: Step) -> FlowContributors {
@@ -31,14 +30,15 @@ class DashboardFlow: Flow {
         case .dashboardIsRequired:
             return navigationToDashboard()
         default:
-            <#code#>
+            return .none
         }
     }
     
     private func navigationToDashboard() -> FlowContributors {
         let wishlistStepper = WishlistStepper()
         
-        let wishListFlow = 
+        let wishListFlow = WishlistFlow(services: services, wishlistStepper: wishlistStepper)
+        let watchedFlow = 
     }
 }
 

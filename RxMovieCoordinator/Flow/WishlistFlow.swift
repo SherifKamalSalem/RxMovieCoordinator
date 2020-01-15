@@ -30,13 +30,42 @@ class WishlistFlow: Flow {
         
         switch step {
         case .moviesAreRequired:
-            
+            return navigateToMovieListScreen()
         default:
-            <#code#>
+            return .none
         }
     }
     
     private func navigateToMovieListScreen() -> FlowContributors {
-        let viewController = WishlistViewController.instantiate()
+        let viewController = WishlistViewController.instantiate(withViewModel: WishlistViewModel(), andServices: self.services)
+        viewController.title = "Wishlist"
+        self.rootViewController.pushViewController(viewController, animated: true)
+        if let navigationBarItem = self.rootViewController.navigationBar.items?[0] {
+            navigationBarItem.setRightBarButton(UIBarButtonItem(image: UIImage(named: "settings"),
+                                                                style: UIBarButtonItem.Style.plain,
+                                                                target: self.wishlistStepper,
+                                                                action: #selector(WishlistStepper.settingsAreRequired)),
+                                                                animated: false)
+            navigationBarItem.setLeftBarButton(UIBarButtonItem(image: UIImage(named: "Logout"),
+                                                               style: UIBarButtonItem.Style.plain,
+                                                               target: self.wishlistStepper,
+                                                               action: #selector(WishlistFlow.logoutIsRequired)),
+                                                               animated: false)
+        }
+    }
+    
+    private func navigationToMovieDetailsScreen(with movieId: Int) -> FlowContributors {
+        let viewController = MovieDetailViewController.instantiate(withViewModel: MovieDetailViewModel(withMovieId: movieId), andServices: self.services)
+        viewController.title = viewController.viewModel.title
+        self.rootViewController.pushViewController(viewController, animated: true)
+        return .none
+    }
+    
+    private func navigationToSettings() -> FlowContributors {
+        let settingsStepper = 
+    }
+    
+    @objc func logoutIsRequired() {
+        self.services.preferencesService.setNotOnboarded()
     }
 }
